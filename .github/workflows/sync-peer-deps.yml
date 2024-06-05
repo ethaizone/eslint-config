@@ -9,12 +9,14 @@ on:
 jobs:
   sync-peer-deps:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # to push on master branch
 
     steps:
     - uses: actions/checkout@v4
       with:
         ref: ${{ github.head_ref }}
-        token: ${{ secrets.GH_PAT }}
+        token: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Run sync-peer-deps.js
       shell: bash
