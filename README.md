@@ -34,7 +34,7 @@ Recommended ESLint and Prettier for TypeScript and React.js codebase project in 
     ```
     {
       "extends": [
-        "@propertyguru/pg"
+        "@ethaizone/eslint-config"
       ]
     }
     ```
