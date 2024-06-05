@@ -1,5 +1,5 @@
 {
-  "name": "@propertyguru/eslint-config-pg",
+  "name": "@ethaizone/eslint-config",
   "version": "1.8.0",
   "description": "eslint rules for typescript code base",
   "main": "index.js",
@@ -22,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/propertyguru/eslint-config-pg.git"
+    "url": "git+https://github.com/ethaizone/eslint-config.git"
   },
   "keywords": [
     "eslint",
@@ -32,9 +32,9 @@
   "author": "Agent Platform Team",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/propertyguru/eslint-config-pg/issues"
+    "url": "https://github.com/ethaizone/eslint-config/issues"
   },
-  "homepage": "https://github.com/propertyguru/eslint-config-pg#readme",
+  "homepage": "https://github.com/ethaizone/eslint-config#readme",
   "publishConfig": {
     "directory": "lib",
     "@propertyguru:registry": "https://npm.pkg.github.com/propertyguru"
