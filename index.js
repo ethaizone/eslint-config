@@ -1,6 +1,6 @@
 // How to use?
 // {
-//   "extends": "@propertyguru/pg",
+//   "extends": "@ethaizone/eslint-config",
 // }
 
 module.exports = require('./.eslintrc.cjs')

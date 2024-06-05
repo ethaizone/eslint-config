@@ -37,7 +37,7 @@
   "homepage": "https://github.com/ethaizone/eslint-config#readme",
   "publishConfig": {
     "directory": "lib",
-    "@propertyguru:registry": "https://npm.pkg.github.com/propertyguru"
+    "@ethaizone:registry": "https://npm.pkg.github.com/ethaizone"
   },
   "devDependencies": {
     "@types/react": "^18.2.48",
